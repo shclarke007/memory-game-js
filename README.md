@@ -9,7 +9,9 @@ The Game removes matching pairs of cards when found
 A Player gets the time taken to complete the game when finished   
 ```
 
-## How to use
-git clone `https://github.com/learningtocode101/memory-game-js.git`
-cd `memory-game-js`
-open `src/index.html`
+## How to use  
+`$ git clone https://github.com/learningtocode101/memory-game-js.git`   
+`$ cd memory-game-js`  
+`$ npm install `  
+`$ npm run test`   
+`open src/index.html`   
