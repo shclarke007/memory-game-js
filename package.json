@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "memory_game_js",
+  "description": "Classic memory game where user tries to find pairs of matching cards",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^24.5.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learningtocode101/memory-game-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learningtocode101/memory-game-js/issues"
+  },
+  "homepage": "https://github.com/learningtocode101/memory-game-js#readme"
+}
