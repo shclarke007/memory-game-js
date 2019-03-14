@@ -40,5 +40,11 @@ class Game {
     ];
 
   }
+
+  duplicate_cards(array){
+    let gameGrid = array.concat(array);
+    return gameGrid;
+  } 
 }
+
 module.exports = Game;
