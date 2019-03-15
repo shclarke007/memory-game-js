@@ -45,6 +45,7 @@ class Game {
     let gameGrid = array.concat(array);
     return gameGrid;
   } 
+
 }
 
 module.exports = Game;
