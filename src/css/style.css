@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px 0;
+  background: #565a97;
+  color: #ffd491;
+}
+
+header {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+#instructions {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  border-radius: 20px 20px;
+  position: relative;
+  transition: all .4s linear;
+  transform-style: preserve-3d;
+  margin: 5px;
+}
+
+.card,
+.back,
+.front {
+  height: 150px;
+  width: 150px;
+}
+
+.back,
+.front {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front {
+  background-image: url("/src/img/paw.png") no-repeat center contain;
+  background-color: #fdf3e5;
+  border-radius: 20px 20px;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.selected {
+  border-radius: 20px 20px;
+  transform: rotateY(180deg);
+}
+
+.match .front{
+  background-color: #565a97;
+  border-radius: 20px 20px;
+  background-image: none;
+}
