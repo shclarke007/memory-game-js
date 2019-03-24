@@ -54,7 +54,10 @@ header {
 }
 
 .front {
-  background-image: url("/src/img/paw.png") no-repeat center contain;
+  background-image: url("../img/paw.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #fdf3e5;
   border-radius: 20px 20px;
 }
