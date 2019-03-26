@@ -14,7 +14,8 @@ A Player gets the time taken to complete the game when finished - Pending
 `$ cd memory-game-js`  
 `$ npm install `  
 `$ npm run test`   
-`open src/index.html`   
+`open src/index.html` 
+Deployed via surge @ http://memory-game-js.surge.sh/src/
 
 ## Screenshot
 ![Screenshot of game](./src/img/screenshot.png)
